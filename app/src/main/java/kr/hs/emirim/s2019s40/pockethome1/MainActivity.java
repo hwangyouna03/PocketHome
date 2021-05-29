@@ -1,8 +1,13 @@
 package kr.hs.emirim.s2019s40.pockethome1;
 
+import android.content.Intent;
+import android.media.Image;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,16 +21,24 @@ import java.io.IOException;
 
 
 public class MainActivity extends AppCompatActivity {
-    private String htmlUrl = "https://news.naver.com/main/list.nhn?mode=LS2D&mid=shm&sid1=101&sid2=260";
+    /*private String htmlUrl = "https://news.naver.com/main/list.nhn?mode=LS2D&mid=shm&sid1=101&sid2=260";
     private TextView textView;
-    private String htmlContentStringFormat="";
+    private String htmlContentStringFormat="";*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textView =(TextView)findViewById(R.id.textView);
+        ImageButton imageButton = (ImageButton)findViewById(R.id.imageButton3);
+        imageButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                Intent intent = new Intent(getApplicationContext(),InformationActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        /*textView = findViewById(R.id.textView);
         textView.setMovementMethod(new ScrollingMovementMethod()); //스크롤 가능
 
         JsoupAsyncTask jsoupAsyncTask = new JsoupAsyncTask();
@@ -56,7 +69,9 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void result) {
             textView.setText(htmlContentStringFormat);
-        }
+        }*/
+
+
     }
 }
 

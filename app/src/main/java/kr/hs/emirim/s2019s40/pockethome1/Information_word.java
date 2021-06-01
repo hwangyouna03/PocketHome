@@ -9,12 +9,12 @@ import android.widget.TableRow;
 
 import com.google.android.material.tabs.TabLayout;
 
-public class InformationActivity extends AppCompatActivity {
+public class Information_word extends AppCompatActivity {
     private FragmentPagerAdapter fragmentPagerAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_information);
+        setContentView(R.layout.activity_information_word);
 
         //viewpager setting
         ViewPager viewPager = findViewById(R.id.viewpager);

@@ -30,13 +30,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageButton imageButton = (ImageButton)findViewById(R.id.imageButton3);
-        imageButton.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),InformationActivity.class);
-                startActivity(intent);
-            }
-        });
+        ImageButton btn3 = (ImageButton)findViewById(R.id.imageButton3);
+        btn3.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent(getApplicationContext(), Information_word.class);
+                        startActivity(intent);
+                    }
+                });
+
+
 
         /*textView = findViewById(R.id.textView);
         textView.setMovementMethod(new ScrollingMovementMethod()); //스크롤 가능
@@ -68,11 +71,13 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(Void result) {
-            textView.setText(htmlContentStringFormat);
+                    textView.setText(htmlContentStringFormat);
         }*/
 
 
     }
+
+
 }
 
 

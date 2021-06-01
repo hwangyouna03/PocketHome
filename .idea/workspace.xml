@@ -8,59 +8,44 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Firebase" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1956d988-152e-4cb2-9d8e-afa37ac3294e" name="Default Changelist" comment="layout">
-      <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-575245820-108194336-2523409430-500/$R551MLQ/.idea/ReactProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-575245820-108194336-2523409430-500/$R7UIMKL/.idea/React_Study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-575245820-108194336-2523409430-500/$RR1ABF8/.idea/learn-hook.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-575245820-108194336-2523409430-500/$RW1R7PJ/.idea/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-575245820-108194336-2523409430-500/$RXSH1AK/.idea/learn-hook.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2210오정민2219황윤아_차오차오/.idea/PythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChaoChaoProject/.idea/ChaoChaoProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Front-end study/Module-study/.idea/Module-study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Front-end study/module_study/.idea/module_study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Front-end study/reactStudy/.idea/reactStudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Front-end study/untitled/.idea/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GUIstudy/.idea/GUIstudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PocketHome1/.idea/PocketHome1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PocketHome1/.idea/modules/app/app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_beta01_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_beta05_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_beta05_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_2_0_alpha01_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Fragword1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Fragword2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/ViewPagerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_color.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/frag_word1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/frag_word2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PythonProGame/.idea/PythonProGame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudyPythonGUI/.idea/StudyPythonGUI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../learn-hook/.idea/learn-hook.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practiceReact/.idea/practiceReact.iml" afterDir="false" />
+    <list default="true" id="1956d988-152e-4cb2-9d8e-afa37ac3294e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app/PocketHome1.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Information_word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_information_word.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jsoup_jsoup_1_13_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/PocketHome1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/PocketHome1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/InformationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/InformationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/InformationActivity.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_information.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_information.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_information.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +53,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_30" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\Administrator\.android\avd\Pixel_2_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -85,9 +70,6 @@
         </projects_view>
       </state>
     </system>
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="PocketHome1" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -112,7 +94,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -123,21 +104,24 @@
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.136942765">
       <recent name="kr.hs.emirim.s2019s40.pockethome1" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PocketHome12\app\src\main\res\drawable-v24" />
+    <key name="android.template.864246562">
+      <recent name="kr.hs.emirim.s2019s40.pockethome1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PocketHome12\app\src\main\res\layout" />
       <recent name="D:\PocketHome12\app\src\main\res\drawable" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="kr.hs.emirim.s2019s40.pockethome1" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\PocketHome12\app\src\main\res\layout" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PocketHome12\app\src\main\res\drawable-v24" />
       <recent name="D:\PocketHome12\app\src\main\res\drawable" />
     </key>
   </component>
@@ -150,12 +134,14 @@
       </method>
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="app" />
+      <module name="PocketHome1.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -191,16 +177,22 @@
       </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -219,40 +211,48 @@
       <option name="project" value="LOCAL" />
       <updated>1619353686575</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="information page - ViewPage">
+      <created>1622330554334</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622330554334</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="layout" />
+    <MESSAGE value="information page - ViewPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="information page - ViewPage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="133" key="#PSD" timestamp="1622277550504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="446" y="133" key="#PSD/0.0.1536.824@0.0.1536.824" timestamp="1622277550504" />
-    <state x="958" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1622321843041">
+    <state x="958" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1622500566990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="958" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1622321843041" />
-    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619084150921">
+    <state x="958" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1622500566990" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622388627276">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1619084150921" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1622388627276" />
     <state x="349" y="167" key="AndroidCreateResourceFileDialog" timestamp="1622320854959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="167" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1622320854959" />
-    <state x="417" y="5" key="CommitChangelistDialog2" timestamp="1619353840189">
+    <state x="417" y="5" key="CommitChangelistDialog2" timestamp="1622330551337">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="417" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1619353840189" />
-    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1622325014816">
+    <state x="417" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1622330551337" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1622499563476">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1622325014816" />
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1622499563476" />
     <state width="1491" height="167" key="GridCell.Tab.0.bottom" timestamp="1622276562995">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -269,22 +269,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1491" height="167" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622276562995" />
-    <state x="277" y="54" key="SettingsEditor" timestamp="1622307637601">
+    <state x="277" y="54" key="SettingsEditor" timestamp="1622553836310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622307637601" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1619353706539">
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622553836310" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622330563815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1619353706539" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622330563815" />
     <state x="569" y="189" key="chooseDestDirectoryDialog" timestamp="1619099330047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="569" y="189" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1619099330047" />
-    <state x="847" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1622320471565">
+    <state x="847" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1622377372962">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="847" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1622320471565" />
+    <state x="847" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1622377372962" />
     <state x="612" y="146" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1619353808326">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

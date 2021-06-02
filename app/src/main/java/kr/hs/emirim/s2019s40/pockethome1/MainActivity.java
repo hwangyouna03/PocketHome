@@ -30,6 +30,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /*버튼 고정*/
+        //MainPage
+        ImageButton btn1 = (ImageButton)findViewById(R.id.imageButton2);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view){
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //Information
         ImageButton btn3 = (ImageButton)findViewById(R.id.imageButton3);
         btn3.setOnClickListener(new View.OnClickListener() {
                     @Override

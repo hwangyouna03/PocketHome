@@ -12,7 +12,7 @@
         android:id="@+id/word1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="오늘은 몇월 몇일일까요?"
+        android:text="토지나 건물을 나누어\n 파는 것이 무엇일까요?"
         android:textColor="#ffff"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"

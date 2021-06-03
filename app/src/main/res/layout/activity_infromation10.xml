@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView4"
+    android:fillViewport="true">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     tools:context=".infromation_10">
 
-    <!--고정 layout-->
+    <!--top-->
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="126dp"
         android:layout_height="39dp"
-        android:layout_marginStart="16sp"
-        android:layout_marginLeft="16sp"
-        android:layout_marginTop="16sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
         android:background="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -30,159 +41,231 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/loginicon" />
+    <!--center -->
 
-    <ImageButton
-        android:id="@+id/imageButton2"
+    <TextView
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52sp"
-        android:layout_marginLeft="52sp"
-        android:layout_marginEnd="1sp"
-        android:layout_marginRight="1sp"
-        android:layout_marginBottom="3sp"
-        android:background="@drawable/news1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="334dp"
+        android:layout_marginRight="334dp"
+        android:text="십계명"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/topic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:text="남향 동향 등 일조권이 좋은 집은\n가격이 빨리 오르고 살기에도 편리하다"
+        android:textColor="#1459D4"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginicon2" />
+
+    <TextView
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginBottom="20dp"
+        android:text="1"
+        android:textColor="#1459D4"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/content1"
+        app:layout_constraintEnd_toStartOf="@+id/topic1"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="52sp"
-        android:layout_marginLeft="52sp"
-        android:layout_marginEnd="1sp"
-        android:layout_marginRight="1sp"
-        android:layout_marginBottom="3sp"
-        android:background="@drawable/map1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
-        app:layout_constraintStart_toEndOf="@+id/imageButton2" />
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="52sp"
-        android:layout_marginLeft="52sp"
-        android:layout_marginEnd="1sp"
-        android:layout_marginRight="1sp"
-        android:layout_marginBottom="3sp"
-        android:background="@drawable/information1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
-        app:layout_constraintStart_toEndOf="@+id/imageButton" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="52sp"
-        android:layout_marginLeft="52sp"
-        android:layout_marginEnd="52sp"
-        android:layout_marginRight="52sp"
-        android:layout_marginBottom="3sp"
-        android:background="@drawable/draw1"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <TextView
+        android:id="@+id/content1"
+        android:layout_width="364dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:text="같은 동의 아파트라도 방향이 안좋은 것은 값이 5~7%정도 낮고\n급할 때 팔려고 내놔도 제 값을 받기 힘들다.\n은행에서 차입시에도 감정가 및 대출금액이 달라진다."
+        android:textColor="#5E5E5E"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton3" />
+        app:layout_constraintTop_toBottomOf="@+id/topic1" />
 
-    <!--center -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="21dp"
-            android:layout_marginLeft="21dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginEnd="334dp"
-            android:layout_marginRight="334dp"
-            android:text="십계명"
-            android:textColor="#000000"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+    <TextView
+        android:id="@+id/num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginBottom="16dp"
+        android:text="2"
+        android:textColor="#1459D4"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/content2"
+        app:layout_constraintEnd_toStartOf="@+id/topic2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <TextView
-            android:id="@+id/topic1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="91dp"
-            android:layout_marginEnd="21dp"
-            android:layout_marginRight="21dp"
-            android:text="남향 동향 등 일조권이 좋은 집은\n가격이 빨리 오르고 살기에도 편리하다"
-            android:textColor="#1459D4"
-            android:textSize="18dp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/loginicon2" />
+    <TextView
+        android:id="@+id/topic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:text="전망이 좋은 집을 골라라."
+        android:textColor="#1459D4"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content1" />
 
-        <TextView
-            android:id="@+id/content1"
-            android:layout_width="364dp"
-            android:layout_height="60dp"
-            android:layout_marginTop="22dp"
-            android:layout_marginEnd="15dp"
-            android:layout_marginRight="15dp"
-            android:text="같은 동의 아파트라도 방향이 안좋은 것은 값이 5~7%정도 낮고\n급할 때 팔려고 내놔도 제 값을 받기 힘들다.\n은행에서 차입시에도 감정가 및 대출금액이 달라진다."
-            android:textColor="#5E5E5E"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/topic1" />
+    <TextView
+        android:id="@+id/content2"
+        android:layout_width="364dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="아파트가 고층화되면서 조망권이 점차 주택값의 변수로\n 등장하는 추세다. 한강변 아파트의 경우 조망권에 따라\n 몇천만원씩 차이가 난다."
+        android:textColor="#5E5E5E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topic2" />
 
-        <TextView
-            android:id="@+id/topic2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="52dp"
-            android:layout_marginEnd="124dp"
-            android:layout_marginRight="124dp"
-            android:text="전망이 좋은 집을 골라라."
-            android:textColor="#1459D4"
-            android:textSize="18dp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/content1" />
+    <TextView
+        android:id="@+id/num3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="13dp"
+        android:text="3"
+        android:textColor="#1459D4"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/content3"
+        app:layout_constraintEnd_toStartOf="@+id/topic3"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <TextView
-            android:id="@+id/content2"
-            android:layout_width="364dp"
-            android:layout_height="60dp"
-            android:layout_marginTop="18dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:text="아파트가 고층화되면서 조망권이 점차 주택값의 변수로\n 등장하는 추세다. 한강변 아파트의 경우 조망권에 따라\n 몇천만원씩 차이가 난다."
-            android:textColor="#5E5E5E"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/topic2" />
+    <TextView
+        android:id="@+id/topic3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:text="대로변에 접해 있는 동은 피하자"
+        android:textColor="#1459D4"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content2" />
 
-        <TextView
-            android:id="@+id/topic3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:layout_marginEnd="72dp"
-            android:layout_marginRight="72dp"
-            android:text="대로변에 접해 있는 동은 피하자"
-            android:textColor="#1459D4"
-            android:textSize="18dp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/content2" />
+    <TextView
+        android:id="@+id/content3"
+        android:layout_width="364dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="소음이 심하고 먼지가 많이 일어나기 때문에 생활하기에도\n불편하고 잘 팔리지도 않는다. 아울러 거주자의 스트레스도\n이만 저만이 아니다."
+        android:textColor="#5E5E5E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/topic3" />
 
-        <TextView
-            android:id="@+id/content3"
-            android:layout_width="364dp"
-            android:layout_height="60dp"
-            android:layout_marginTop="33dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginRight="20dp"
-            android:text="소음이 심하고 먼지가 많이 일어나기 때문에 생활하기에도\n불편하고 잘 팔리지도 않는다. 아울러 거주자의 스트레스도\n이만 저만이 아니다."
-            android:textColor="#5E5E5E"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/topic3" />
+    <TextView
+        android:id="@+id/topic4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginRight="121dp"
+        android:text="지하철로부터 2km를\n벗어나지 않는 것이 좋다."
+        android:textColor="#1459D4"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/num4"
+        app:layout_constraintTop_toBottomOf="@+id/content3" />
+
+    <TextView
+        android:id="@+id/num4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="26dp"
+        android:text="4"
+        android:textColor="#1459D4"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toStartOf="@+id/topic4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content3" />
+
+    <TextView
+        android:id="@+id/content4"
+        android:layout_width="364dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text=" 수도권 전체가 지하철을 중심으로 연결되는 추세다.\n지하철역에서 걸어다닐 수 있는 아파트가 가격의\n 상승탄력이 당연히 높다."
+        android:textColor="#5E5E5E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topic4" />
+
+    <TextView
+        android:id="@+id/num5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="335dp"
+        android:layout_marginRight="335dp"
+        android:text="5"
+        android:textColor="#1459D4"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
 
 
+</ScrollView>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>

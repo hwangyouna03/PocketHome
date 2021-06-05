@@ -240,7 +240,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text=" 수도권 전체가 지하철을 중심으로 연결되는 추세다.\n지하철역에서 걸어다닐 수 있는 아파트가 가격의\n 상승탄력이 당연히 높다."
+        android:text="수도권 전체가 지하철을 중심으로 연결되는 추세다.\n지하철역에서 걸어다닐 수 있는 아파트가 가격의\n 상승탄력이 당연히 높다."
         android:textColor="#5E5E5E"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -253,7 +253,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="54dp"
         android:layout_marginLeft="54dp"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="26dp"
         android:layout_marginEnd="335dp"
         android:layout_marginRight="335dp"
         android:text="5"
@@ -263,6 +263,52 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/content4" />
+
+    <TextView
+        android:id="@+id/topic5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginRight="119dp"
+        android:layout_marginBottom="14dp"
+        android:text="단지규모가 최소한\n5백가구이상 돼야 한다."
+        android:textColor="#1459D4"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/content5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/num5" />
+
+    <TextView
+        android:id="@+id/content5"
+        android:layout_width="364dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="대단지일수록 관리비도 저렴하고 편의시설이 잘 갖춰져 있다.\n 아파트값 형성에도 단지규모가 영향을 많이 미친다는 것은 자명한 사실이다."
+        android:textColor="#5E5E5E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/num5" />
+
+    <TextView
+        android:id="@+id/num6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:textColor="#1459D4"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="930dp" />
+
+    
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

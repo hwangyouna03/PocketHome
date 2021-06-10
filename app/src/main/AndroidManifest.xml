@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".infromation_10"></activity>
+        <activity android:name=".Information_contractActivity"></activity>
+        <activity android:name=".InformationActivity" />
+        <activity android:name=".infromation_10" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

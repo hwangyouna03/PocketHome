@@ -277,13 +277,14 @@
         android:layout_marginLeft="43dp"
         android:layout_marginEnd="119dp"
         android:layout_marginRight="119dp"
-        android:layout_marginBottom="14dp"
-        android:text="단지규모가 최소한\n5백가구이상 돼야 한다."
+        android:layout_marginBottom="48dp"
+        android:text="주변 시설"
         android:textColor="#1459D4"
         android:textSize="18dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/content5"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.33"
         app:layout_constraintStart_toEndOf="@+id/num5" />
 
     <TextView
@@ -295,7 +296,9 @@
         android:layout_marginTop="80dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        android:text="대단지일수록 관리비도 저렴하고 편의시설이 잘 갖춰져 있다.\n 아파트값 형성에도 단지규모가 영향을 많이 미친다는 것은 자명한 사실이다."
+        android:text="편의점, 마트, 세탁소, 약국은 가까울 수록 이득
+집 앞에 놀이터가 있다면 밤에도 시끄러울 수 있으니 참고하기
+주말 아침에 일어났는데 물이 없거나 몸은 아픈데 연락할 사람이 없는 상황을 대비하기 위해!"
         android:textColor="#5E5E5E"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -306,31 +309,26 @@
         android:id="@+id/num6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
-        android:layout_marginEnd="42dp"
-        android:layout_marginRight="42dp"
-        android:layout_marginBottom="17dp"
         android:text="6"
         android:textColor="#1459D4"
         android:textSize="40dp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@+id/content6"
-        app:layout_constraintEnd_toStartOf="@+id/topic6"
-        app:layout_constraintStart_toStartOf="parent" />
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="868dp" />
 
     <TextView
         android:id="@+id/topic6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="80dp"
         android:layout_marginRight="80dp"
-        android:text="단지주변에 공원이나 녹지가\n 풍부한지 확인하자."
+        android:text="공과금"
         android:textColor="#1459D4"
         android:textSize="18dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toEndOf="@+id/num6"
         app:layout_constraintTop_toBottomOf="@+id/content5" />
 
@@ -340,14 +338,16 @@
         android:layout_height="60dp"
         android:layout_marginStart="23dp"
         android:layout_marginLeft="23dp"
-        android:layout_marginTop="165dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        android:text="쾌적한 주거환경이 중시되면서'환경프리미엄'까지 등장하고\n 있다. 주변에 녹지가 많은 아파트가 인기를 끌고 있다."
+        android:text="관리비에 포함되는 요금, 공과금 액수를 집주인 또는 전 세입자를 통해 확인
+'인터넷, 수도, 가스, 전기 별도인가요? 포함인가요?'
+    '보통 겨울에 가스비 얼마정도 나오나요?'"
         android:textColor="#5E5E5E"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/topic5" />
+        tools:layout_editor_absoluteY="937dp" />
 
     <TextView
         android:id="@+id/num7"
@@ -357,19 +357,121 @@
         android:textColor="#1459D4"
         android:textSize="40dp"
         android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="54dp"
-        tools:layout_editor_absoluteY="1080dp" />
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="1028dp" />
 
     <TextView
         android:id="@+id/topic7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="고층아파트는 준공된지 5년이내의 집을 사는 것이 유리하다."
+        android:text="방음"
         android:textColor="#1459D4"
         android:textSize="18dp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="1080dp" />
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="1035dp" />
+
+    <TextView
+        android:id="@+id/content7"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:text="벽을 두드려보고 공간이 비어있다면 방음에 취약할 가능성이 큼"
+        android:textColor="#5E5E5E"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="1090dp" />
+
+    <TextView
+        android:id="@+id/num8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:textColor="#1459D4"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="1130dp" />
+
+    <TextView
+        android:id="@+id/topic8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주인 얼굴"
+        android:textColor="#1459D4"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="1140dp" />
+
+    <TextView
+        android:id="@+id/content8"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:text="관상을 보라는 게 아닌 직접 만나서 방음, 옵션, 관리비, 쓰레기 처리 방법 등을 문의할 것 !"
+        android:textColor="#5E5E5E"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="1200dp" />
+
+    <TextView
+        android:id="@+id/num9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:textColor="#1459D4"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="1260dp" />
+
+    <TextView
+        android:id="@+id/topic9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수압"
+        android:textColor="#1459D4"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="1280dp" />
+
+    <TextView
+        android:id="@+id/content9"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:text="세면대 물 틀어놓고 변기 물 내려보면 수압이 적절한지 간단히 알 수 있음"
+        android:textColor="#5E5E5E"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="1330dp" />
+
+    <TextView
+        android:id="@+id/num10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:textColor="#1459D4"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="1400dp" />
+
+    <TextView
+        android:id="@+id/topic10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="곰팡이"
+        android:textColor="#1459D4"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="1410dp" />
+
+    <TextView
+        android:id="@+id/content10"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:text="도배가 깨끗하게 새로 되어 있는 집! 안심하기에는 일러요\n혹시결로나 곰팡이가 있었는지 알아보고 집주인과 계약 전에 \n상의하세요 !"
+        android:textColor="#5E5E5E"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="1480dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

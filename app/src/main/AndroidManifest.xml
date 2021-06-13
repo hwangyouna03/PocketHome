@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Information_contractActivity"></activity>
+        <activity android:name=".contract.Contract1"></activity>
+        <activity android:name=".contract.Information_contractActivity" />
         <activity android:name=".InformationActivity" />
         <activity android:name=".infromation_10" />
         <activity android:name=".MainActivity">

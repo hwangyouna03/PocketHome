@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/Logo1"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/logo1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="450dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="684dp"
+        android:background="@drawable/password"
+        android:gravity="center"
+        android:hint="비밀번호"
+        android:textColorHint="#000000"
+        android:inputType="text"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="450dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="588dp"
+        android:background="@drawable/id"
+        android:gravity="center"
+        android:hint="아이디"
+        android:textColorHint="#000000"
+        android:inputType="text"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/loginButton"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="772dp"
+        android:background="@drawable/button1"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="792dp"
+        android:gravity="center"
+        android:text="로그인"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

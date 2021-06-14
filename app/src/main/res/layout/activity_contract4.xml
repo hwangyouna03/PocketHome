@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".contract.Information_contractActivity">
+    tools:context=".contract.Contract4">
 
-    <!--고정-->
+    <!--고정 layout -->
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="101dp"
@@ -115,118 +116,73 @@
 
     <!--center-->
 
+
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="41dp"
-        android:layout_marginLeft="41dp"
-        android:layout_marginTop="22dp"
-        android:layout_marginEnd="302dp"
-        android:layout_marginRight="302dp"
-        android:text="부동산 계약 팁"
+        android:layout_marginStart="32dp"
+
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="281dp"
+        android:layout_marginRight="281dp"
+        android:text="전입 신고"
         android:textColor="#000000"
-        android:textSize="20dp"
+        android:textSize="23dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.277"
+        app:layout_constraintHorizontal_bias="0.266"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view1" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="324dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="43dp"
-        android:layout_marginLeft="43dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
-        android:background="@drawable/button_color"
-        android:text="등기부등본"
-        android:textColor="#ffffff"
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:text="전입 신고 및 확정일자를 받을 것!"
+        android:textColor="#040404"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/content1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:text=" 전입신고와 확정일자는 임차인이 임대차계약에서 법적으로\n권리를
+보호받을 수 있는 절차입니다. 전입신고는 새로운\n주소지 변경 사항을 알리는 절차이며
+이를 통해 주택임대차\n보호법의 보호를 받을 수 있습니다. 확정일자는 임대차계약을\n
+맺은 날짜를 확인하는 것으로 경매 등의 상황에서 우선적으로\n보증금을 변제받을 수 있게 됩니다.\n\n
+전입신고와 확정일자는 주민센터에 바로 민원이 가능하며\n전입신고와 동시에 확정일자를
+받는 것이 가장 편리한 방법이며\n신고는전입할 날로부터 14일 이내로 완료하면 됩니다."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <Button
-        android:id="@+id/btn2"
-        android:layout_width="324dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="43dp"
-        android:layout_marginLeft="43dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
-        android:layout_marginBottom="25dp"
-        android:background="@drawable/button_color"
-        android:text="부동산 계약은 집주인과 함께"
-        android:textColor="#ffffff"
-        app:layout_constraintBottom_toTopOf="@+id/btn3"
+        app:layout_constraintTop_toBottomOf="@+id/title2" />
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="304dp"
+        android:layout_marginLeft="304dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="출처 : 비즈폼"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn3"
-        android:layout_width="324dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="43dp"
-        android:layout_marginLeft="43dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
-        android:layout_marginBottom="25dp"
-        android:background="@drawable/button_color"
-        android:text="계약서(특약사항)"
-        android:textColor="#ffffff"
-        app:layout_constraintBottom_toTopOf="@+id/btn4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn4"
-        android:layout_width="324dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="43dp"
-        android:layout_marginLeft="43dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
-        android:layout_marginBottom="25dp"
-        android:background="@drawable/button_color"
-        android:text="전입신고"
-        android:textColor="#ffffff"
-        app:layout_constraintBottom_toTopOf="@+id/btn5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn5"
-        android:layout_width="324dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="43dp"
-        android:layout_marginLeft="43dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
-        android:layout_marginBottom="25dp"
-        android:background="@drawable/button_color"
-        android:text="부동산 방문"
-        android:textColor="#ffffff"
-        app:layout_constraintBottom_toTopOf="@+id/btn6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn6"
-        android:layout_width="324dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="43dp"
-        android:layout_marginLeft="43dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
-        android:layout_marginBottom="64dp"
-        android:background="@drawable/button_color"
-        android:text="부동산 계약"
-        android:textColor="#ffffff"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

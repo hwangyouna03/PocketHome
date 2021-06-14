@@ -12,7 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".contract.Contract1"></activity>
+        <activity android:name=".contract.Contract6"></activity>
+        <activity android:name=".contract.Contract5" />
+        <activity android:name=".contract.Contract4" />
+        <activity android:name=".contract.Contract3" />
+        <activity android:name=".contract.Contract2" />
+        <activity android:name=".contract.Contract1" />
         <activity android:name=".contract.Information_contractActivity" />
         <activity android:name=".InformationActivity" />
         <activity android:name=".infromation_10" />

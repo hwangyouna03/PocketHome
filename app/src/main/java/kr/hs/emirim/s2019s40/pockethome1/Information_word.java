@@ -12,6 +12,8 @@ import android.widget.ImageButton;
 
 import com.google.android.material.tabs.TabLayout;
 
+import kr.hs.emirim.s2019s40.pockethome1.contract.Information_contractActivity;
+
 public class Information_word extends AppCompatActivity {
     private FragmentPagerAdapter fragmentPagerAdapter;
     @Override
@@ -34,5 +36,16 @@ public class Information_word extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //button3 -> 계약 팁
+        Button button3 = (Button)findViewById(R.id.button3);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), Information_contractActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

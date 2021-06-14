@@ -46,6 +46,15 @@ public class Information_word extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        //button3 -> 단어
+        Button button4 = (Button)findViewById(R.id.button4);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), InformationActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

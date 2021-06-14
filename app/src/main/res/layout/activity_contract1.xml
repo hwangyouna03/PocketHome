@@ -15,11 +15,11 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="101dp"
-            android:layout_height="26dp"
-            android:layout_marginStart="16sp"
-            android:layout_marginLeft="16sp"
-            android:layout_marginTop="24dp"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="277sp"
             android:layout_marginRight="277sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -30,8 +30,8 @@
 
         <ImageButton
             android:id="@+id/loginicon"
-            android:layout_width="37dp"
-            android:layout_height="37dp"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="20dp"
             android:layout_marginRight="20dp"
@@ -96,20 +96,44 @@
             app:layout_constraintEnd_toStartOf="@+id/imageButton"
             app:layout_constraintStart_toStartOf="parent" />
 
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="56dp"
+            android:background="#B7B7B7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <!--center-->
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="660dp"
+            android:background="#B7B7B7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--center-->
+
         <TextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-
             android:layout_marginLeft="32dp"
-            android:layout_marginTop="120dp"
+            android:layout_marginTop="88dp"
             android:layout_marginEnd="281dp"
             android:layout_marginRight="281dp"
             android:text="등기 부등본"
             android:textColor="#000000"
-            android:textSize="23dp"
+            android:textSize="20dp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -121,7 +145,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="13dp"
             android:layout_marginLeft="13dp"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="24dp"
             android:layout_marginEnd="13dp"
             android:layout_marginRight="13dp"
             android:text="등기부등본과 건축물대장은 해당 부독산, 건물에 대해서 소유자에\n
@@ -133,8 +157,8 @@
 건축물대장에 표시된 내용이 다를 수\n있는데 권리 관계는 등기부등본을 기준으로 하며 부동산의 표시는\n
 건축물 대장을 기준으로 하게 되기 때문에 이를 참고하시고, 혹시\n표시가 달라 걱정이 된다면
 인터넷 등기소를 통해 수정을 하시면\n됩니다."
+            android:textSize="13dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.666"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/title2" />
 
@@ -149,7 +173,7 @@
             android:layout_marginRight="140dp"
             android:text="등기부등본, 건축물 대장 열람"
             android:textColor="#040404"
-            android:textSize="20dp"
+            android:textSize="18dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -159,12 +183,13 @@
             android:id="@+id/txt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="304dp"
-            android:layout_marginLeft="304dp"
-            android:layout_marginTop="34dp"
-            android:layout_marginEnd="32dp"
-            android:layout_marginRight="32dp"
+            android:layout_marginStart="275dp"
+            android:layout_marginLeft="275dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="72dp"
+            android:layout_marginRight="72dp"
             android:text="출처 : 비즈폼"
+            android:textSize="12dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/content1" />

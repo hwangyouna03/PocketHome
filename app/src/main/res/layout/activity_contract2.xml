@@ -10,11 +10,11 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="101dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="16sp"
-        android:layout_marginLeft="16sp"
-        android:layout_marginTop="24dp"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="277sp"
         android:layout_marginRight="277sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,8 +25,8 @@
 
     <ImageButton
         android:id="@+id/loginicon"
-        android:layout_width="37dp"
-        android:layout_height="37dp"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
@@ -95,22 +95,23 @@
         android:id="@+id/view1"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="56dp"
         android:background="#B7B7B7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--center-->
 
     <View
         android:id="@+id/view2"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginTop="657dp"
-        android:layout_marginBottom="18dp"
+        android:layout_marginTop="660dp"
         android:background="#B7B7B7"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -122,14 +123,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="88dp"
         android:layout_marginEnd="281dp"
         android:layout_marginRight="281dp"
         android:text="부동산 계약"
         android:textColor="#000000"
-        android:textSize="23dp"
+        android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.266"
@@ -147,7 +147,7 @@
         android:layout_marginRight="140dp"
         android:text="계약은 집주인과 하는 것이다!"
         android:textColor="#040404"
-        android:textSize="20dp"
+        android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -172,6 +172,7 @@
 주의 할 것은, 대리인 계약에서 집주인으로부터 권한을 부여받은\n 대리인일 뿐,
 계약 당사자가 아니기 때문에 계약서상의 성명 직인은\n모두 집주인인 임대인의 것이 들어가야 하며
 계약금도 집주인이\n별도로 말한 내요이 없다면 집주인 명의의 계좌로 입금해야 합니다."
+        android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
@@ -183,11 +184,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="304dp"
         android:layout_marginLeft="304dp"
-        android:layout_marginTop="34dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
         android:text="출처 : 비즈폼"
+        android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/content1" />
 

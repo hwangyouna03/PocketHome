@@ -22,9 +22,9 @@
         android:id="@+id/imageView2"
         android:layout_width="101dp"
         android:layout_height="26dp"
-        android:layout_marginStart="16sp"
-        android:layout_marginLeft="16sp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="277sp"
         android:layout_marginRight="277sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +41,7 @@
         android:layout_marginRight="20dp"
         android:background="@drawable/loginicon"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"  />
 
     <!--center -->
 

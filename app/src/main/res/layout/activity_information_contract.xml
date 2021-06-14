@@ -9,11 +9,11 @@
     <!--고정-->
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="101dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="16sp"
-        android:layout_marginLeft="16sp"
-        android:layout_marginTop="24dp"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="277sp"
         android:layout_marginRight="277sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,8 +24,8 @@
 
     <ImageButton
         android:id="@+id/loginicon"
-        android:layout_width="37dp"
-        android:layout_height="37dp"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
@@ -94,25 +94,25 @@
         android:id="@+id/view1"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="56dp"
         android:background="#B7B7B7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--center-->
 
     <View
         android:id="@+id/view2"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginTop="657dp"
-        android:layout_marginBottom="18dp"
+        android:layout_marginTop="660dp"
         android:background="#B7B7B7"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
     <!--center-->
 
     <TextView
@@ -121,102 +121,22 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="41dp"
         android:layout_marginLeft="41dp"
-        android:layout_marginTop="22dp"
         android:layout_marginEnd="302dp"
         android:layout_marginRight="302dp"
+        android:layout_marginBottom="32dp"
         android:text="부동산 계약 팁"
         android:textColor="#000000"
         android:textSize="20dp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.277"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view1" />
-
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="324dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="43dp"
-        android:layout_marginLeft="43dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
-        android:background="@drawable/button_color"
-        android:text="등기부등본"
-        android:textColor="#ffffff"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <Button
-        android:id="@+id/btn2"
-        android:layout_width="324dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="43dp"
-        android:layout_marginLeft="43dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
-        android:layout_marginBottom="25dp"
-        android:background="@drawable/button_color"
-        android:text="부동산 계약은 집주인과 함께"
-        android:textColor="#ffffff"
-        app:layout_constraintBottom_toTopOf="@+id/btn3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn3"
-        android:layout_width="324dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="43dp"
-        android:layout_marginLeft="43dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
-        android:layout_marginBottom="25dp"
-        android:background="@drawable/button_color"
-        android:text="계약서(특약사항)"
-        android:textColor="#ffffff"
-        app:layout_constraintBottom_toTopOf="@+id/btn4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn4"
-        android:layout_width="324dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="43dp"
-        android:layout_marginLeft="43dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
-        android:layout_marginBottom="25dp"
-        android:background="@drawable/button_color"
-        android:text="전입신고"
-        android:textColor="#ffffff"
-        app:layout_constraintBottom_toTopOf="@+id/btn5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn5"
-        android:layout_width="324dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="43dp"
-        android:layout_marginLeft="43dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
-        android:layout_marginBottom="25dp"
-        android:background="@drawable/button_color"
-        android:text="부동산 방문"
-        android:textColor="#ffffff"
-        app:layout_constraintBottom_toTopOf="@+id/btn6"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn6"
-        android:layout_width="324dp"
-        android:layout_height="57dp"
+        android:layout_width="267dp"
+        android:layout_height="39dp"
         android:layout_marginStart="43dp"
         android:layout_marginLeft="43dp"
         android:layout_marginEnd="44dp"
@@ -225,8 +145,100 @@
         android:background="@drawable/button_color"
         android:text="부동산 계약"
         android:textColor="#ffffff"
+        android:textSize="12dp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="267dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/button_color"
+        android:text="등기부등본"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="267dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_color"
+        android:text="부동산 계약은 집주인과 함께"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="267dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_color"
+        android:text="계약서(특약사항)"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="267dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/button_color"
+        android:text="전입신고"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="267dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/button_color"
+        android:text="부동산 방문"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

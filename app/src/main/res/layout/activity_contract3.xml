@@ -10,11 +10,11 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="101dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="16sp"
-        android:layout_marginLeft="16sp"
-        android:layout_marginTop="24dp"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="277sp"
         android:layout_marginRight="277sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,8 +25,8 @@
 
     <ImageButton
         android:id="@+id/loginicon"
-        android:layout_width="37dp"
-        android:layout_height="37dp"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
@@ -91,6 +91,30 @@
         app:layout_constraintEnd_toStartOf="@+id/imageButton"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="56dp"
+        android:background="#B7B7B7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--center-->
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="660dp"
+        android:background="#B7B7B7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <!--center-->
 
 
@@ -99,14 +123,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="88dp"
         android:layout_marginEnd="281dp"
         android:layout_marginRight="281dp"
         android:text="특약사항"
         android:textColor="#000000"
-        android:textSize="23dp"
+        android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.266"
@@ -124,7 +147,7 @@
         android:layout_marginRight="140dp"
         android:text="협의된 내용은 특약사항에 명시"
         android:textColor="#040404"
-        android:textSize="20dp"
+        android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -145,6 +168,7 @@
 집주인과 얘기가 다 되었다고 생각하여 이를 계약서 상에\n기재하지 않았을 경우 문제가
 발생했을 때, 이전에 집주인과\n협의된사항임을 본인이 직접 밝혀야 하기 때문에 임차인이\n
 적극적으로 특약사항을 확인하고 내용을 명시해야 합니다."
+        android:textSize="13dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
@@ -161,20 +185,22 @@
         android:layout_marginRight="320dp"
         android:text="참고 사진"
         android:textColor="#FF0000"
+        android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/content1" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="335dp"
-        android:layout_height="185dp"
+        android:layout_width="271dp"
+        android:layout_height="119dp"
         android:layout_marginStart="38dp"
         android:layout_marginLeft="38dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="38dp"
         android:layout_marginRight="38dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.671"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
         app:srcCompat="@drawable/contractphoto" />
@@ -183,15 +209,15 @@
         android:id="@+id/txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="304dp"
-        android:layout_marginLeft="304dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginLeft="184dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
         android:text="출처 : 비즈폼"
+        android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/content1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

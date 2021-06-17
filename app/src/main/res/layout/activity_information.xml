@@ -113,16 +113,16 @@
 
 
 
-    <View
-        android:id="@+id/view2"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="664dp"
-        android:background="#B7B7B7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="664dp"
+                android:background="#B7B7B7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
 
         <!--center-->
@@ -158,7 +158,7 @@
             android:layout_marginEnd="369dp"
             android:layout_marginRight="369dp"
             android:layout_marginBottom="8dp"
-            android:text="ㄱ"
+            android:text="어려운 부동산 용어"
             android:textColor="#000000"
             android:textSize="16dp"
             android:textStyle="bold"
@@ -182,14 +182,14 @@
 
         <TextView
             android:id="@+id/w_result"
-            android:layout_width="312dp"
-            android:layout_height="82dp"
+            android:layout_width="362dp"
+            android:layout_height="85dp"
             android:layout_marginStart="27dp"
             android:layout_marginLeft="27dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="72dp"
             android:layout_marginRight="72dp"
-            android:text="드롭다운 결과"
+            android:text="용어 뜻 설명"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.058"
             app:layout_constraintStart_toStartOf="parent"
@@ -206,7 +206,7 @@
             android:layout_marginTop="12dp"
             android:layout_marginEnd="369dp"
             android:layout_marginRight="369dp"
-            android:text="ㄴ"
+            android:text="자취생을 위한 용어"
             android:textColor="#000000"
             android:textSize="16dp"
             android:textStyle="bold"
@@ -234,51 +234,22 @@
 
         <TextView
             android:id="@+id/w_result2"
-            android:layout_width="312dp"
-            android:layout_height="82dp"
+            android:layout_width="354dp"
+            android:layout_height="126dp"
             android:layout_marginStart="27dp"
             android:layout_marginLeft="27dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="72dp"
             android:layout_marginRight="72dp"
-            android:text="드롭다운 결과"
+            android:text="용어 뜻 설명"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/spinner2" />
 
-        <TextView
-            android:id="@+id/w_title3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="27dp"
-            android:layout_marginLeft="27dp"
-            android:layout_marginTop="8dp"
-            android:text="ㄷ"
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toStartOf="@+id/w_result2"
-            app:layout_constraintHorizontal_bias="0.187"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/w_result2" />
 
-        <Spinner
-            android:id="@+id/spinner3"
-            android:layout_width="149dp"
-            android:layout_height="59dp"
-            android:layout_marginStart="21dp"
-            android:layout_marginLeft="21dp"
-            android:layout_marginTop="6dp"
-            android:layout_marginEnd="209dp"
-            android:layout_marginRight="209dp"
-            android:entries="@array/word2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/w_title3">
 
-        </Spinner>
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

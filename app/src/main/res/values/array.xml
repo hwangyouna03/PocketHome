@@ -3,10 +3,20 @@
     <string-array name="word1">
         <item>건폐율</item>
         <item>공용면적</item>
+        <item>노도강</item>
+        <item>뉴스테이</item>
+
     </string-array>
 
     <string-array name="word2">
-        <item>노도강</item>
-        <item>뉴스테이</item>
+        <item>분양</item>
+        <item>청약</item>
+        <item>주택청약통장</item>
+        <item>아파트투유</item>
+        <item>예치금</item>
+        <item>단독주택</item>
+        <item>연립주택</item>
+        <item>장기전세주택</item>
+        <item>국민임대주택</item>
     </string-array>
 </resources>

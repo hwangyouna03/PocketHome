@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".MainMap"></activity>
+        <activity android:name=".MainMap2"></activity>
+        <activity android:name=".MainMap" />
         <activity android:name=".NewsHome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

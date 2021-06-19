@@ -1,5 +1,6 @@
 package kr.hs.emirim.s2019s40.pockethome1;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -17,33 +18,31 @@ import com.google.android.material.tabs.TabLayout;
 
 
 import java.util.ArrayList;
+import java.util.List;
 
 import kr.hs.emirim.s2019s40.pockethome1.contract.Information_contractActivity;
 
 
 public class Information_word extends AppCompatActivity {
-    //private FragmentPagerAdapter fragmentPagerAdapter;
-    private ArrayList<Fragment> fragments = new ArrayList<>();
-
-
-
+   PagerAdapter pageradapter;
+   ViewPager pager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_information_word);
 
-        //viewpager setting
-        /*ViewPager viewPager = findViewById(R.id.viewpager);
-        ViewPager viewPager1 = findViewById(R.id.viewpager1);
-        fragmentPagerAdapter = new ViewpagerAdapter(getSupportFragmentManager());
+        //TabLayout tabLayout = findViewById(R.id.tab_layout);
+        //tabLayout.addTab((tabLayout.newTab().setText("one")));
+        //tabLayout.addTab((tabLayout.newTab().setText("two")));
 
-        TabLayout tabLayout = findViewById(R.id.tab_layout);
-        viewPager.setAdapter(fragmentPagerAdapter);
-        tabLayout.setupWithViewPager(viewPager);
-        viewPager1.setAdapter(fragmentPagerAdapter);
-        tabLayout.setupWithViewPager(viewPager1);*/
+        List<Fragment> list = new ArrayList<>();
+        list.add(new PageFragment1());
+        list.add(new PageFragment2());
 
+        pager = findViewById(R.id.pager);
+        pageradapter = new SlidePagerAdapter(getSupportFragmentManager(),list);
+        pager.setAdapter(pageradapter);
 
         
         //button -> 십계명

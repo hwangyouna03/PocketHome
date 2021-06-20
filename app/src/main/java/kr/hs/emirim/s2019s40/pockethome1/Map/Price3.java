@@ -24,7 +24,7 @@ public class Price3 extends AppCompatActivity {
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Price3.this, MainNews.class);
+                Intent myintent1 = new Intent(Price3.this, MainNews.class);
                 startActivity(myintent1);
 
                 finish();
@@ -36,7 +36,7 @@ public class Price3 extends AppCompatActivity {
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Price3.this, MainMap.class);
+                Intent myintent1 = new Intent( Price3.this, MainMap.class);
                 startActivity(myintent1);
 
                 finish();
@@ -48,7 +48,7 @@ public class Price3 extends AppCompatActivity {
         imageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Price3.this, Main.class);
+                Intent myintent1 = new Intent(Price3.this, Main.class);
                 startActivity(myintent1);
 
                 finish();
@@ -60,7 +60,7 @@ public class Price3 extends AppCompatActivity {
         imageButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Price3.this, Community.class);
+                Intent myintent1 = new Intent( Price3.this, Community.class);
                 startActivity(myintent1);
 
                 finish();

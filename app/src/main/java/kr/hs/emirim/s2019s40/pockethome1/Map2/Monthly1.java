@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import kr.hs.emirim.s2019s40.pockethome1.Community;
 import kr.hs.emirim.s2019s40.pockethome1.MainMap;
+import kr.hs.emirim.s2019s40.pockethome1.Map.Price24;
 import kr.hs.emirim.s2019s40.pockethome1.R;
 
 public class Monthly1 extends AppCompatActivity {
@@ -20,11 +21,11 @@ public class Monthly1 extends AppCompatActivity {
 
 
         //뉴스 버튼 클릭 시
-        ImageButton imageButton2 = (ImageButton)findViewById(R.id.imageButton2);
+        ImageButton imageButton2 = (ImageButton) findViewById(R.id.imageButton2);
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Monthly1.this, MainNews.class);
+                Intent myintent1 = new Intent(Monthly1.this, MainNews.class);
                 startActivity(myintent1);
 
                 finish();
@@ -32,11 +33,11 @@ public class Monthly1 extends AppCompatActivity {
         });
 
         //지도 버튼 클릭 시
-        ImageButton imageButton = (ImageButton)findViewById(R.id.imageButton);
+        ImageButton imageButton = (ImageButton) findViewById(R.id.imageButton);
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Monthly1.this, MainMap.class);
+                Intent myintent1 = new Intent(Monthly1.this, MainMap.class);
                 startActivity(myintent1);
 
                 finish();
@@ -44,11 +45,11 @@ public class Monthly1 extends AppCompatActivity {
         });
 
         // 버튼 클릭 시
-        ImageButton imageButton3 = (ImageButton)findViewById(R.id.imageButton3);
+        ImageButton imageButton3 = (ImageButton) findViewById(R.id.imageButton3);
         imageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Monthly1.this, Main.class);
+                Intent myintent1 = new Intent(Monthly1.this, Main.class);
                 startActivity(myintent1);
 
                 finish();
@@ -56,11 +57,11 @@ public class Monthly1 extends AppCompatActivity {
         });
 
         // 게시판 버튼 클릭 시
-        ImageButton imageButton4 = (ImageButton)findViewById(R.id.imageButton4);
+        ImageButton imageButton4 = (ImageButton) findViewById(R.id.imageButton4);
         imageButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Monthly1.this, Community.class);
+                Intent myintent1 = new Intent(Monthly1.this, Community.class);
                 startActivity(myintent1);
 
                 finish();

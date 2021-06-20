@@ -7,6 +7,7 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import kr.hs.emirim.s2019s40.pockethome1.Community;
 import kr.hs.emirim.s2019s40.pockethome1.MainMap;
 import kr.hs.emirim.s2019s40.pockethome1.R;
 
@@ -15,15 +16,15 @@ public class Price21 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.price_3);
+        setContentView(R.layout.price_21);
 
 
         //뉴스 버튼 클릭 시
-        ImageButton imageButton2 = (ImageButton)findViewById(R.id.imageButton2);
+        ImageButton imageButton2 = (ImageButton) findViewById(R.id.imageButton2);
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Price21.this, MainNews.class);
+                Intent myintent1 = new Intent(Price21.this, MainNews.class);
                 startActivity(myintent1);
 
                 finish();
@@ -31,11 +32,11 @@ public class Price21 extends AppCompatActivity {
         });
 
         //지도 버튼 클릭 시
-        ImageButton imageButton = (ImageButton)findViewById(R.id.imageButton);
+        ImageButton imageButton = (ImageButton) findViewById(R.id.imageButton);
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Price21.this, MainMap.class);
+                Intent myintent1 = new Intent(Price21.this, MainMap.class);
                 startActivity(myintent1);
 
                 finish();
@@ -43,11 +44,11 @@ public class Price21 extends AppCompatActivity {
         });
 
         // 버튼 클릭 시
-        ImageButton imageButton3 = (ImageButton)findViewById(R.id.imageButton3);
+        ImageButton imageButton3 = (ImageButton) findViewById(R.id.imageButton3);
         imageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Price21.this, Main.class);
+                Intent myintent1 = new Intent(Price21.this, Main.class);
                 startActivity(myintent1);
 
                 finish();
@@ -55,11 +56,11 @@ public class Price21 extends AppCompatActivity {
         });
 
         // 게시판 버튼 클릭 시
-        ImageButton imageButton4 = (ImageButton)findViewById(R.id.imageButton4);
+        ImageButton imageButton4 = (ImageButton) findViewById(R.id.imageButton4);
         imageButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Price21.this, com.example.myapplication.Community.class);
+                Intent myintent1 = new Intent(Price21.this, Community.class);
                 startActivity(myintent1);
 
                 finish();

@@ -7,6 +7,7 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import kr.hs.emirim.s2019s40.pockethome1.Community;
 import kr.hs.emirim.s2019s40.pockethome1.MainMap;
 import kr.hs.emirim.s2019s40.pockethome1.R;
 
@@ -15,15 +16,14 @@ public class Price13 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.price_3);
-
+        setContentView(R.layout.price_13);
 
         //뉴스 버튼 클릭 시
         ImageButton imageButton2 = (ImageButton)findViewById(R.id.imageButton2);
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Price13.this, MainNews.class);
+                Intent myintent1 = new Intent(Price13.this, MainNews.class);
                 startActivity(myintent1);
 
                 finish();
@@ -35,7 +35,7 @@ public class Price13 extends AppCompatActivity {
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Price13.this, MainMap.class);
+                Intent myintent1 = new Intent(Price13.this, MainMap.class);
                 startActivity(myintent1);
 
                 finish();
@@ -47,7 +47,7 @@ public class Price13 extends AppCompatActivity {
         imageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Price13.this, Main.class);
+                Intent myintent1 = new Intent(Price13.this, Main.class);
                 startActivity(myintent1);
 
                 finish();
@@ -59,11 +59,12 @@ public class Price13 extends AppCompatActivity {
         imageButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Price13.this, com.example.myapplication.Community.class);
+                Intent myintent1 = new Intent(Price13.this, Community.class);
                 startActivity(myintent1);
 
                 finish();
             }
         });
-    }
+
+        }
 }

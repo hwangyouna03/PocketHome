@@ -16,7 +16,7 @@ public class Price18 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.price_3);
+        setContentView(R.layout.price_18);
 
 
         //뉴스 버튼 클릭 시
@@ -24,7 +24,7 @@ public class Price18 extends AppCompatActivity {
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Price18.this, MainNews.class);
+                Intent myintent1 = new Intent(Price18.this, MainNews.class);
                 startActivity(myintent1);
 
                 finish();
@@ -36,7 +36,7 @@ public class Price18 extends AppCompatActivity {
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Price18.this, MainMap.class);
+                Intent myintent1 = new Intent(Price18.this, MainMap.class);
                 startActivity(myintent1);
 
                 finish();
@@ -48,7 +48,7 @@ public class Price18 extends AppCompatActivity {
         imageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Price18.this, Main.class);
+                Intent myintent1 = new Intent(Price18.this, Main.class);
                 startActivity(myintent1);
 
                 finish();
@@ -60,7 +60,7 @@ public class Price18 extends AppCompatActivity {
         imageButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Price18.this, Community.class);
+                Intent myintent1 = new Intent(Price18.this, Community.class);
                 startActivity(myintent1);
 
                 finish();

@@ -14,35 +14,32 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1956d988-152e-4cb2-9d8e-afa37ac3294e" name="Default Changelist" comment="information page - ViewPage">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price24.java" afterDir="false" />
+    <list default="true" id="feb4cf0c-1f9f-4732-95e9-5b45c0b60f75" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/MainMap2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/MainMap2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price10.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price11.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price12.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price13.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price14.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price15.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price16.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price17.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price18.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price18.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price19.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price20.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price21.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price22.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price23.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price4.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price5.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price6.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price7.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price8.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price9.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly10.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly11.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly12.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly13.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly14.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly15.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly16.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly17.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly18.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly19.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly19.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly20.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly21.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly22.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly23.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly24.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly4.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly5.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly6.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly7.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly8.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly9.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +276,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1956d988-152e-4cb2-9d8e-afa37ac3294e" name="Default Changelist" comment="" />
+      <changelist id="feb4cf0c-1f9f-4732-95e9-5b45c0b60f75" name="Default Changelist" comment="" />
       <created>1617019029190</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />

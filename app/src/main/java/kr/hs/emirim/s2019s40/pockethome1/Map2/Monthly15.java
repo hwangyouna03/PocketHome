@@ -7,6 +7,9 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import kr.hs.emirim.s2019s40.pockethome1.Community;
+import kr.hs.emirim.s2019s40.pockethome1.Information_word;
+import kr.hs.emirim.s2019s40.pockethome1.MainActivity;
 import kr.hs.emirim.s2019s40.pockethome1.MainMap;
 import kr.hs.emirim.s2019s40.pockethome1.R;
 
@@ -15,14 +18,14 @@ public class Monthly15 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.monthly_7);
+        setContentView(R.layout.monthly_15);
 
         //뉴스 버튼 클릭 시
         ImageButton imageButton2 = (ImageButton)findViewById(R.id.imageButton2);
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Monthly15.this, MainNews.class);
+                Intent myintent1 = new Intent( Monthly15.this, MainActivity.class);
                 startActivity(myintent1);
 
                 finish();
@@ -34,7 +37,7 @@ public class Monthly15 extends AppCompatActivity {
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Monthly15.this, MainMap.class);
+                Intent myintent1 = new Intent( Monthly15.this, MainMap.class);
                 startActivity(myintent1);
 
                 finish();
@@ -46,7 +49,7 @@ public class Monthly15 extends AppCompatActivity {
         imageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Monthly15.this, Main.class);
+                Intent myintent1 = new Intent( Monthly15.this, Information_word.class);
                 startActivity(myintent1);
 
                 finish();
@@ -58,7 +61,7 @@ public class Monthly15 extends AppCompatActivity {
         imageButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.Monthly15.this, com.example.myapplication.Community.class);
+                Intent myintent1 = new Intent(Monthly15.this, Community.class);
                 startActivity(myintent1);
 
                 finish();

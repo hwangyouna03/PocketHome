@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="kr.hs.emirim.s2019s40.pockethome1">
 
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 인터넷 사용 권한 -->
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -12,7 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".contract.Contract6"></activity>
+        <activity android:name=".TestActivity"></activity>
+        <activity android:name=".Reivew">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".contract.Contract6" />
         <activity android:name=".contract.Contract5" />
         <activity android:name=".contract.Contract4" />
         <activity android:name=".contract.Contract3" />

@@ -8,6 +8,9 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import kr.hs.emirim.s2019s40.pockethome1.Map.Price1;
+import kr.hs.emirim.s2019s40.pockethome1.Map.Price4;
+
 public class MainMap2 extends AppCompatActivity {
 
     @Override

@@ -8,6 +8,31 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly1;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly10;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly11;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly12;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly13;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly14;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly15;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly16;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly17;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly18;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly19;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly2;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly20;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly21;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly22;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly23;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly24;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly3;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly4;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly5;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly6;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly7;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly8;
+import kr.hs.emirim.s2019s40.pockethome1.Map2.Monthly9;
+
 public class MainMap extends AppCompatActivity {
 
     @Override
@@ -20,7 +45,7 @@ public class MainMap extends AppCompatActivity {
         wjsdnjftp_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.MainMap.class);
+                Intent myintent1 = new Intent(MainMap.this, MainMap.class);
                 startActivity(myintent1);
 
                 finish();
@@ -32,7 +57,7 @@ public class MainMap extends AppCompatActivity {
         aoao_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.MainMap2.class);
+                Intent myintent1 = new Intent(MainMap.this, MainMap2.class);
                 startActivity(myintent1);
 
                 finish();
@@ -44,7 +69,7 @@ public class MainMap extends AppCompatActivity {
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, MainNews.class);
+                Intent myintent1 = new Intent(MainMap.this, MainNews.class);
                 startActivity(myintent1);
 
                 finish();
@@ -56,7 +81,7 @@ public class MainMap extends AppCompatActivity {
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.MainMap.class);
+                Intent myintent1 = new Intent(MainMap.this, MainMap.class);
                 startActivity(myintent1);
 
                 finish();
@@ -68,7 +93,7 @@ public class MainMap extends AppCompatActivity {
         imageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, Main.class);
+                Intent myintent1 = new Intent( MainMap.this, Main.class);
                 startActivity(myintent1);
 
                 finish();
@@ -80,7 +105,7 @@ public class MainMap extends AppCompatActivity {
         imageButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Community.class);
+                Intent myintent1 = new Intent(MainMap.this, Community.class);
                 startActivity(myintent1);
 
                 finish();
@@ -91,7 +116,7 @@ public class MainMap extends AppCompatActivity {
         text1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly1.class);
+                Intent myintent1 = new Intent( MainMap.this, Monthly1.class);
                 startActivity(myintent1);
 
                 finish();
@@ -102,7 +127,7 @@ public class MainMap extends AppCompatActivity {
         text2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly2.class);
+                Intent myintent1 = new Intent( MainMap.this, Monthly2.class);
                 startActivity(myintent1);
 
                 finish();
@@ -113,7 +138,7 @@ public class MainMap extends AppCompatActivity {
         text3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly3.class);
+                Intent myintent1 = new Intent( MainMap.this,  Monthly3.class);
                 startActivity(myintent1);
 
                 finish();
@@ -124,7 +149,7 @@ public class MainMap extends AppCompatActivity {
         text4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly4.class);
+                Intent myintent1 = new Intent( MainMap.this, Monthly4.class);
                 startActivity(myintent1);
 
                 finish();
@@ -135,7 +160,7 @@ public class MainMap extends AppCompatActivity {
         text5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly5.class);
+                Intent myintent1 = new Intent( MainMap.this, Monthly5.class);
                 startActivity(myintent1);
 
                 finish();
@@ -146,7 +171,7 @@ public class MainMap extends AppCompatActivity {
         text6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly6.class);
+                Intent myintent1 = new Intent (MainMap.this, Monthly6.class);
                 startActivity(myintent1);
 
                 finish();
@@ -157,7 +182,7 @@ public class MainMap extends AppCompatActivity {
         text7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly7.class);
+                Intent myintent1 = new Intent( MainMap.this,  Monthly7.class);
                 startActivity(myintent1);
 
                 finish();
@@ -168,7 +193,7 @@ public class MainMap extends AppCompatActivity {
         text8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly8.class);
+                Intent myintent1 = new Intent( MainMap.this, Monthly8.class);
                 startActivity(myintent1);
 
                 finish();
@@ -179,7 +204,7 @@ public class MainMap extends AppCompatActivity {
         text9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly9.class);
+                Intent myintent1 = new Intent( MainMap.this, Monthly9.class);
                 startActivity(myintent1);
 
                 finish();
@@ -190,7 +215,7 @@ public class MainMap extends AppCompatActivity {
         text10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly10.class);
+                Intent myintent1 = new Intent(MainMap.this, Monthly10.class);
                 startActivity(myintent1);
 
                 finish();
@@ -201,7 +226,7 @@ public class MainMap extends AppCompatActivity {
         text11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly11.class);
+                Intent myintent1 = new Intent( MainMap.this, Monthly11.class);
                 startActivity(myintent1);
 
                 finish();
@@ -212,7 +237,7 @@ public class MainMap extends AppCompatActivity {
         text12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly12.class);
+                Intent myintent1 = new Intent(MainMap.this, Monthly12.class);
                 startActivity(myintent1);
 
                 finish();
@@ -223,7 +248,7 @@ public class MainMap extends AppCompatActivity {
         text13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly13.class);
+                Intent myintent1 = new Intent( MainMap.this, Monthly13.class);
                 startActivity(myintent1);
 
                 finish();
@@ -234,7 +259,7 @@ public class MainMap extends AppCompatActivity {
         text8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly14.class);
+                Intent myintent1 = new Intent( MainMap.this, Monthly14.class);
                 startActivity(myintent1);
 
                 finish();
@@ -245,7 +270,7 @@ public class MainMap extends AppCompatActivity {
         text15.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly15.class);
+                Intent myintent1 = new Intent( MainMap.this, Monthly15.class);
                 startActivity(myintent1);
 
                 finish();
@@ -256,7 +281,7 @@ public class MainMap extends AppCompatActivity {
         text16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly16.class);
+                Intent myintent1 = new Intent( MainMap.this, Monthly16.class);
                 startActivity(myintent1);
 
                 finish();
@@ -267,7 +292,7 @@ public class MainMap extends AppCompatActivity {
         text17.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly17.class);
+                Intent myintent1 = new Intent( MainMap.this, Monthly17.class);
                 startActivity(myintent1);
 
                 finish();
@@ -278,7 +303,7 @@ public class MainMap extends AppCompatActivity {
         text18.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly18.class);
+                Intent myintent1 = new Intent( MainMap.this, Monthly18.class);
                 startActivity(myintent1);
 
                 finish();
@@ -289,7 +314,7 @@ public class MainMap extends AppCompatActivity {
         text19.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly19.class);
+                Intent myintent1 = new Intent(MainMap.this, Monthly19.class);
                 startActivity(myintent1);
 
                 finish();
@@ -300,7 +325,7 @@ public class MainMap extends AppCompatActivity {
         text20.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly20.class);
+                Intent myintent1 = new Intent (MainMap.this, Monthly20.class);
                 startActivity(myintent1);
 
                 finish();
@@ -311,7 +336,7 @@ public class MainMap extends AppCompatActivity {
         text21.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly21.class);
+                Intent myintent1 = new Intent( MainMap.this, Monthly21.class);
                 startActivity(myintent1);
 
                 finish();
@@ -322,7 +347,7 @@ public class MainMap extends AppCompatActivity {
         text22.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly22.class);
+                Intent myintent1 = new Intent( MainMap.this, Monthly22.class);
                 startActivity(myintent1);
 
                 finish();
@@ -333,7 +358,7 @@ public class MainMap extends AppCompatActivity {
         text23.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly23.class);
+                Intent myintent1 = new Intent( MainMap.this,  Monthly23.class);
                 startActivity(myintent1);
 
                 finish();
@@ -344,7 +369,7 @@ public class MainMap extends AppCompatActivity {
         text24.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(com.example.myapplication.MainMap.this, com.example.myapplication.Monthly24.class);
+                Intent myintent1 = new Intent(MainMap.this, Monthly24.class);
                 startActivity(myintent1);
 
                 finish();

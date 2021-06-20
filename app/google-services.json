@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "843771197892",
+    "project_id": "pockethome-df3dc",
+    "storage_bucket": "pockethome-df3dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843771197892:android:f038f20fdc9942702fcc91",
+        "android_client_info": {
+          "package_name": "com.project.pockthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843771197892-964s43n55ut6kn46es7qqf3pkv1oc0d6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.pockthome",
+            "certificate_hash": "8af1e0d6fe9ac572185bee5b3529e422235a921b"
+          }
+        },
+        {
+          "client_id": "843771197892-sr4a9cc5u5tgijkgq0guqgn09maedv60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYVbRCGdk4y5AoqlMrF4yBr8IOH5N5az0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843771197892-sr4a9cc5u5tgijkgq0guqgn09maedv60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843771197892:android:cb3df52ccb1834142fcc91",
+        "android_client_info": {
+          "package_name": "kr.hs.emirim.s2019s40.pockethome1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843771197892-sr4a9cc5u5tgijkgq0guqgn09maedv60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYVbRCGdk4y5AoqlMrF4yBr8IOH5N5az0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843771197892-sr4a9cc5u5tgijkgq0guqgn09maedv60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

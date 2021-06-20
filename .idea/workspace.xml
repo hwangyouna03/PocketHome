@@ -15,29 +15,86 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1956d988-152e-4cb2-9d8e-afa37ac3294e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/PageFragment1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/PageFragment2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/SlidePagerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/google-services (1).json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/PostInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/TestActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_baseline_create_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/PocketHome1.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/PocketHome1.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Information_word.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Information_word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_information_word.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_information_word.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Community.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Community.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/MainMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/MainMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/MainMap2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/MainMap2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly10.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly11.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly12.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly13.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly14.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly15.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly16.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly17.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly18.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly19.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly20.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly21.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly22.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly23.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly24.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly4.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly5.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly6.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly7.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly8.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Monthly9.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map2/Monthly9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price10.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price11.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price12.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price13.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price14.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price15.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price16.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price17.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price18.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price19.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price20.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price21.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price22.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price23.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price4.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price5.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price6.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price7.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price8.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Price9.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/hs/emirim/s2019s40/pockethome1/Map/Price9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_community.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_community.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\Administrator\.android\avd\Pixel_2_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -46,6 +103,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -57,6 +117,19 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="PocketHome1" type="f1a62948:ProjectNode" />
                 <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PocketHome1" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PocketHome1" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -101,8 +174,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SoulmateProject" />
-    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
@@ -114,10 +187,15 @@
     <key name="android.template.864246562">
       <recent name="kr.hs.emirim.s2019s40.pockethome1" />
     </key>
+    <key name="android.template.1719877120">
+      <recent name="kr.hs.emirim.s2019s40.pockethome1" />
+    </key>
     <key name="android.template.1778282991">
       <recent name="kr.hs.emirim.s2019s40.pockethome1.contract" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Test\PocketHome\app" />
+      <recent name="C:\Test\PocketHome\app\src\main\res\values" />
       <recent name="D:\PocketHome12\app\src\main\res\drawable-v24" />
       <recent name="D:\PocketHome12\app\src\main\res\drawable" />
     </key>
@@ -128,8 +206,11 @@
       <recent name="kr.hs.emirim.s2019s40.pockethome1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Test\PocketHome\app\src\main\res\drawable-v24" />
+      <recent name="C:\Test\PocketHome\app\src\main\res\menu" />
+      <recent name="C:\Test\PocketHome\app\src\main\res\layout" />
+      <recent name="C:\Test\PocketHome\app\src\main\java\kr\hs\emirim\s2019s40\pockethome1" />
       <recent name="D:\PocketHome12\app\src\main\res\layout" />
-      <recent name="D:\PocketHome12\app\src\main\res\drawable" />
     </key>
     <key name="android.template.1238762585">
       <recent name="kr.hs.emirim.s2019s40.pockethome1.contract" />
@@ -139,11 +220,14 @@
       <recent name="kr.hs.emirim.s2019s40.pockethome1" />
       <recent name="kr.hs.emirim.s2019s40.pockethome1.fragment" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="kr.hs.emirim.s2019s40.pockethome1" />
+    </key>
     <key name="android.template.588632403">
       <recent name="kr.hs.emirim.s2019s40.pockethome1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.PocketHome:app [signingReport]">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -159,7 +243,6 @@
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ALL_USERS" value="false" />
-      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -209,8 +292,32 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PocketHome:app [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.PocketHome:app [signingReport]" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -247,18 +354,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="information page - ViewPage" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="133" key="#PSD" timestamp="1622277550504">
+    <state x="178" y="138" key="#PSD" timestamp="1624192975096">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="446" y="133" key="#PSD/0.0.1536.824@0.0.1536.824" timestamp="1622277550504" />
+    <state x="178" y="138" key="#PSD/0.0.1536.824@0.0.1536.824" timestamp="1624192975096" />
     <state x="958" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1624000049016">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="958" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1624000049016" />
+    <state x="482" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1624162316009">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="482" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1624162316009" />
     <state x="883" y="282" width="482" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1623988918082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="883" y="282" width="482" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1623988918082" />
+    <state x="558" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1624162317863">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="558" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1624162317863" />
     <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623988915112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -279,30 +394,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="417" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1622330551337" />
-    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1622499563476">
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1624188447277">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1622499563476" />
-    <state width="1493" height="51" key="GridCell.Tab.0.bottom" timestamp="1623653970560">
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1624188447277" />
+    <state width="1491" height="210" key="GridCell.Tab.0.bottom" timestamp="1624217747918">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="51" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623653970560" />
-    <state width="1493" height="51" key="GridCell.Tab.0.center" timestamp="1623653970560">
+    <state width="1491" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624217747918" />
+    <state width="1491" height="210" key="GridCell.Tab.0.center" timestamp="1624217747917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="51" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1623653970560" />
-    <state width="1493" height="51" key="GridCell.Tab.0.left" timestamp="1623653970559">
+    <state width="1491" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1624217747917" />
+    <state width="1491" height="210" key="GridCell.Tab.0.left" timestamp="1624217747917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="51" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1623653970559" />
-    <state width="1493" height="51" key="GridCell.Tab.0.right" timestamp="1623653970560">
+    <state width="1491" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1624217747917" />
+    <state width="1491" height="210" key="GridCell.Tab.0.right" timestamp="1624217747917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="51" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1623653970560" />
-    <state x="277" y="54" key="SettingsEditor" timestamp="1623975642054">
+    <state width="1491" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1624217747917" />
+    <state x="277" y="54" key="SettingsEditor" timestamp="1624192923062">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1623975642054" />
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1624192923062" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622330563815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -319,9 +434,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="612" y="146" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824@0.0.1536.824" timestamp="1619353808326" />
-    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1623701798029">
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1624176448560">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1623701798029" />
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1624176448560" />
   </component>
 </project>

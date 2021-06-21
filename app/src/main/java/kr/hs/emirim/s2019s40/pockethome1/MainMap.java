@@ -69,7 +69,7 @@ public class MainMap extends AppCompatActivity {
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(MainMap.this, MainNews.class);
+                Intent myintent1 = new Intent(MainMap.this, MainActivity.class);
                 startActivity(myintent1);
 
                 finish();
@@ -93,24 +93,13 @@ public class MainMap extends AppCompatActivity {
         imageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent( MainMap.this, Main.class);
+                Intent myintent1 = new Intent( MainMap.this, Information_word.class);
                 startActivity(myintent1);
 
                 finish();
             }
         });
 
-        // 게시판 버튼 클릭 시
-        ImageButton imageButton4 = (ImageButton)findViewById(R.id.imageButton4);
-        imageButton4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent myintent1 = new Intent(MainMap.this, Community.class);
-                startActivity(myintent1);
-
-                finish();
-            }
-        });
 
         TextView text1 = (TextView) findViewById(R.id.text1);
         text1.setOnClickListener(new View.OnClickListener() {

@@ -1,6 +1,7 @@
 package kr.hs.emirim.s2019s40.pockethome1;
 
 import android.content.Intent;
+import android.icu.text.IDNA;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -19,6 +20,7 @@ import kr.hs.emirim.s2019s40.pockethome1.Map.Price16;
 import kr.hs.emirim.s2019s40.pockethome1.Map.Price17;
 import kr.hs.emirim.s2019s40.pockethome1.Map.Price18;
 import kr.hs.emirim.s2019s40.pockethome1.Map.Price19;
+import kr.hs.emirim.s2019s40.pockethome1.Map.Price2;
 import kr.hs.emirim.s2019s40.pockethome1.Map.Price20;
 import kr.hs.emirim.s2019s40.pockethome1.Map.Price21;
 import kr.hs.emirim.s2019s40.pockethome1.Map.Price22;
@@ -68,7 +70,7 @@ public class MainMap2 extends AppCompatActivity {
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(MainMap2.this, MainNews.class);
+                Intent myintent1 = new Intent(MainMap2.this, MainActivity.class);
                 startActivity(myintent1);
 
                 finish();
@@ -92,19 +94,7 @@ public class MainMap2 extends AppCompatActivity {
         imageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(MainMap2.this, Main.class);
-                startActivity(myintent1);
-
-                finish();
-            }
-        });
-
-        // 게시판 버튼 클릭 시
-        ImageButton imageButton4 = (ImageButton)findViewById(R.id.imageButton4);
-        imageButton4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent myintent1 = new Intent(MainMap2.this,Community.class);
+                Intent myintent1 = new Intent(MainMap2.this, Information_word.class);
                 startActivity(myintent1);
 
                 finish();
@@ -126,7 +116,7 @@ public class MainMap2 extends AppCompatActivity {
         text2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(MainMap2.this, com.example.myapplication.Price2.class);
+                Intent myintent1 = new Intent(MainMap2.this, Price2.class);
                 startActivity(myintent1);
 
                 finish();

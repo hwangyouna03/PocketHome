@@ -7,11 +7,9 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import kr.hs.emirim.s2019s40.pockethome1.Community;
 import kr.hs.emirim.s2019s40.pockethome1.Information_word;
 import kr.hs.emirim.s2019s40.pockethome1.MainActivity;
 import kr.hs.emirim.s2019s40.pockethome1.MainMap;
-import kr.hs.emirim.s2019s40.pockethome1.Map.Price24;
 import kr.hs.emirim.s2019s40.pockethome1.R;
 
 public class Monthly1 extends AppCompatActivity {
@@ -52,18 +50,6 @@ public class Monthly1 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent myintent1 = new Intent(Monthly1.this, Information_word.class);
-                startActivity(myintent1);
-
-                finish();
-            }
-        });
-
-        // 게시판 버튼 클릭 시
-        ImageButton imageButton4 = (ImageButton) findViewById(R.id.imageButton4);
-        imageButton4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent myintent1 = new Intent(Monthly1.this, Community.class);
                 startActivity(myintent1);
 
                 finish();

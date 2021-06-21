@@ -19,7 +19,9 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo2" />
+        app:srcCompat="@drawable/logo2"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="277sp" />
 
     <ImageButton
         android:id="@+id/loginicon"
@@ -54,7 +56,8 @@
         android:background="@drawable/buttonround"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="16dp" />
 
     <ImageButton
         android:id="@+id/aoao_button"
@@ -65,7 +68,8 @@
         android:background="@drawable/buttonround"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="80dp" />
 
     <TextView
         android:id="@+id/wjsdnjftp_text"
@@ -79,7 +83,8 @@
         android:textSize="15dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="18dp" />
 
     <TextView
         android:id="@+id/aoao_text"
@@ -93,7 +98,8 @@
         android:textSize="15dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="82dp" />
 
     <!--지도 텍스트-->
 
@@ -122,7 +128,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="28dp" />
 
     <TextView
         android:id="@+id/text2"
@@ -136,7 +143,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="60dp" />
 
     <TextView
         android:id="@+id/text3"
@@ -150,7 +158,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="52dp" />
 
     <TextView
         android:id="@+id/text4"
@@ -164,7 +173,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="104dp" />
 
     <TextView
         android:id="@+id/text5"
@@ -178,7 +188,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="96dp" />
 
     <TextView
         android:id="@+id/text6"
@@ -192,7 +203,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="142dp" />
 
     <TextView
         android:id="@+id/text7"
@@ -206,7 +218,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="136dp" />
 
     <TextView
         android:id="@+id/text8"
@@ -220,7 +233,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="188dp" />
 
 
     <TextView
@@ -235,7 +249,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="224dp" />
 
     <TextView
         android:id="@+id/text10"
@@ -249,7 +264,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="272dp" />
 
     <TextView
         android:id="@+id/text11"
@@ -263,7 +279,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="300dp" />
 
     <TextView
         android:id="@+id/text12"
@@ -277,7 +294,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="102dp" />
 
     <TextView
         android:id="@+id/text13"
@@ -291,7 +309,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="164dp" />
 
     <TextView
         android:id="@+id/text14"
@@ -305,7 +324,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="176dp" />
 
     <TextView
         android:id="@+id/text15"
@@ -319,7 +339,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="216dp" />
 
     <TextView
         android:id="@+id/text16"
@@ -333,7 +354,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="252dp" />
 
     <TextView
         android:id="@+id/text17"
@@ -347,7 +369,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="126dp" />
 
     <TextView
         android:id="@+id/text18"
@@ -361,7 +384,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="120dp" />
 
     <TextView
         android:id="@+id/text19"
@@ -375,7 +399,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="164dp" />
 
     <TextView
         android:id="@+id/text20"
@@ -389,7 +414,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="208dp" />
 
     <TextView
         android:id="@+id/text21"
@@ -403,7 +429,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="194dp" />
 
     <TextView
         android:id="@+id/text22"
@@ -417,7 +444,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="208dp" />
 
     <TextView
         android:id="@+id/text23"
@@ -431,7 +459,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="244dp" />
 
     <TextView
         android:id="@+id/text24"
@@ -445,7 +474,8 @@
         android:textSize="10dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="256dp" />
 
     <!-- 탭바 -->
     <view

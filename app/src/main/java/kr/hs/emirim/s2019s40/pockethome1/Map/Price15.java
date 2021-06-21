@@ -1,13 +1,15 @@
 package kr.hs.emirim.s2019s40.pockethome1.Map;
 
 import android.content.Intent;
+import android.icu.text.IDNA;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import kr.hs.emirim.s2019s40.pockethome1.Community;
+import kr.hs.emirim.s2019s40.pockethome1.Information_word;
+import kr.hs.emirim.s2019s40.pockethome1.MainActivity;
 import kr.hs.emirim.s2019s40.pockethome1.MainMap;
 import kr.hs.emirim.s2019s40.pockethome1.R;
 
@@ -24,7 +26,7 @@ public class Price15 extends AppCompatActivity {
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(Price15.this, MainNews.class);
+                Intent myintent1 = new Intent(Price15.this, MainActivity.class);
                 startActivity(myintent1);
 
                 finish();
@@ -48,23 +50,13 @@ public class Price15 extends AppCompatActivity {
         imageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent1 = new Intent(Price15.this, Main.class);
+                Intent myintent1 = new Intent(Price15.this, Information_word.class);
                 startActivity(myintent1);
 
                 finish();
             }
         });
 
-        // 게시판 버튼 클릭 시
-        ImageButton imageButton4 = (ImageButton)findViewById(R.id.imageButton4);
-        imageButton4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent myintent1 = new Intent(Price15.this, Community.class);
-                startActivity(myintent1);
 
-                finish();
-            }
-        });
     }
 }
